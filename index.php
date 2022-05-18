@@ -25,7 +25,7 @@ class Block
     /**
      * @param mixed $index
      */
-    public function setIndex($index): void
+    public function setIndex($index)
     {
         $this->index = $index;
     }
@@ -41,7 +41,7 @@ class Block
     /**
      * @param int $timestamp
      */
-    public function setTimestamp(int $timestamp): void
+    public function setTimestamp(int $timestamp)
     {
         $this->timestamp = $timestamp;
     }
@@ -57,7 +57,7 @@ class Block
     /**
      * @param mixed $proof
      */
-    public function setProof($proof): void
+    public function setProof($proof)
     {
         $this->proof = $proof;
     }
@@ -73,7 +73,7 @@ class Block
     /**
      * @param mixed $previousHash
      */
-    public function setPreviousHash($previousHash): void
+    public function setPreviousHash($previousHash)
     {
         $this->previousHash = $previousHash;
     }
